@@ -5,7 +5,7 @@
   <a class="contact" href="https://github.com/{{ $id }}">
     <i class="fab fa-github" aria-hidden="true"></i>
   </a>
-    {{- if (eq $service "gitlab") }}
+    {{- else if (eq $service "gitlab") }}
   <a class="contact" href="https://gitlab.com/{{ $id }}">
     <i class="fab fa-gitlab" aria-hidden="true"></i>
   </a>
