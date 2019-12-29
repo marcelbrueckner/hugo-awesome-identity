@@ -80,7 +80,7 @@ Copy the `config.toml` into the root directory of your website. Overwrite the ex
 
 You can put your own contacts such as e-mail address, or social media accounts. The contacts will be linked using icons from [Font Awesome](https://fontawesome.com/).
 
-Currently, Awesome Identity supports: Email, GitHub, Twitter, Facebook, LinkedIn, Instagram, StackOverflow, Keybase, and Medium. Feel free to [create Pull Request](https://github.com/posquit0/hugo-awesome-identity/pulls) if you need other contact type.
+Currently, Awesome Identity supports: Email, GitHub, Twitter, Facebook, LinkedIn, Xing, Instagram, StackOverflow, Keybase, and Medium. Feel free to [create Pull Request](https://github.com/posquit0/hugo-awesome-identity/pulls) if you need other contact type.
 
 ```toml
 ## Contacts Configurations
@@ -94,6 +94,7 @@ Currently, Awesome Identity supports: Email, GitHub, Twitter, Facebook, LinkedIn
   stackoverflow = "7919458"
   keybase = "john.smith"
   medium = "john.smith"
+  xing = "john.smith"
 ```
 
 ### Footer
