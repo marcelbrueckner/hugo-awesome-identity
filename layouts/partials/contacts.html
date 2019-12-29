@@ -5,6 +5,10 @@
   <a class="contact" href="https://github.com/{{ $id }}">
     <i class="fab fa-github" aria-hidden="true"></i>
   </a>
+    {{- if (eq $service "gitlab") }}
+  <a class="contact" href="https://gitlab.com/{{ $id }}">
+    <i class="fab fa-gitlab" aria-hidden="true"></i>
+  </a>
     {{- else if (eq $service "twitter") }}
   <a class="contact" href="https://twitter.com/{{ $id }}">
     <i class="fab fa-twitter" aria-hidden="true"></i>
